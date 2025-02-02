@@ -4,10 +4,10 @@ import Landing from "./components/Landind";
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen flex-grow">
       <HeaderTailwind/>
 
-      <Landing></Landing>
+      <Landing />
 
       <Footer />
     </div>

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Projects from "./Projects";
+import Technologies from "./Technologies";
 
 export default function Landing() {
     return (
@@ -15,15 +16,22 @@ export default function Landing() {
             height={160}
             priority
           />
-          <h1 className="text-4xl font-bold mt-4">Guilherme Wallace</h1>
-          <p className="text-lg text-gray-600 max-w-xl mt-2">
+          <h1 className="text-4xl font-bold mt-10">Guilherme Wallace</h1>
+          <p className="text-lg text-gray-600 max-w-xl mt-5">
               Welcome! Dive in to discover who I am, what I build, and how I’m navigating the world of tech—one project at a time.
           </p>
 
         </section>
+
+        {/*Technologies*/}
+        <Technologies/>
+
+
   
         {/* Seção de Projetos */}
         <Projects/>
+
+
 
   
         {/* Contato */}
