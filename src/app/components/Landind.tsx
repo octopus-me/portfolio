@@ -26,12 +26,7 @@ export default function Landing() {
         {/*Technologies*/}
         <Technologies/>
 
-
-  
-        {/* Seção de Projetos */}
-        <Projects/>
-
-
+        
 
   
         {/* Contato */}
