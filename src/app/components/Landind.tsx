@@ -9,7 +9,7 @@ export default function Landing() {
         {/* Hero Section */}
         <section className="flex flex-col items-center">
           <Image
-            className="rounded-full border border-gray-300 shadow-lg"
+            className="rounded-full border border-gray-300 shadow-lg mt-20"
             src="/foto.jpg"
             alt="Foto de Guilherme Wallace"
             width={160}
@@ -26,7 +26,7 @@ export default function Landing() {
         {/*Technologies*/}
         <Technologies/>
 
-        
+
 
   
         {/* Contato */}
